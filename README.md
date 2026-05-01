@@ -1,5 +1,5 @@
-# Recipe Page
-
+# Frontend-Journey
+# 1 Reipe-Page
 A simple recipe page built with HTML and CSS.
 
 ## What I learned
