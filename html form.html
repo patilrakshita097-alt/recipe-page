@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="html form.css" />
+  </head>
+
+  <body>
+    <h1 id="title">Student Survey Form</h1>
+
+<p id="description">
+  Please fill out this survey to help us improve our courses.
+</p>
+
+<form id="survey-form">
+
+  <label id="name-label" for="name">Name</label>
+  <input
+    id="name"
+    type="text"
+    placeholder="Enter your full name"
+    required
+  >
+<br>
+  <label id="email-label" for="email">Email</label>
+  <input
+    id="email"
+    type="email"
+    placeholder="Enter your email address"
+    required
+  >
+<br>
+  <label id="number-label" for="number">Age</label>
+  <input
+    id="number"
+    type="number"
+    placeholder="Enter your age"
+    min="10"
+    max="100"
+  >
+<br>
+  <label for="dropdown">Select Your Course</label>
+  <select id="dropdown">
+    <option value="web-development">Web Development</option>
+    <option value="data-science">Data Science</option>
+    <option value="cyber-security">Cyber Security</option>
+  </select>
+
+  <p>How would you rate our course?</p>
+
+  <label>
+    <input
+      type="radio"
+      name="rating"
+      value="excellent"
+    >
+    Excellent
+  </label>
+
+  <label>
+    <input
+      type="radio"
+      name="rating"
+      value="good"
+    >
+    Good
+  </label>
+
+  <p>Which topics are you interested in?</p>
+
+  <label>
+    <input
+      type="checkbox"
+      value="html"
+    >
+    HTML
+  </label>
+
+  <label>
+    <input
+      type="checkbox"
+      value="css">
+    CSS
+  </label>
+
+  <label>
+    <input
+      type="checkbox"
+      value="javascript"
+    >
+    JavaScript
+  </label>
+
+  <p>Additional Comments</p>
+  <textarea placeholder="Write your comments here"></textarea>
+
+  <button id="submit" type="submit">Submit</button>
+
+</form>
+  </body>
+</html>
