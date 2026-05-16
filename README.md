@@ -34,6 +34,24 @@ A simple hotel feedback form built using HTML as part of the freeCodeCamp Respon
 - Using `<textarea>` for comments
 - Improving accessibility by linking `<label>` elements with form controls
 
+  ```markdown
+# 04- Survey Form
+
+A simple and responsive HTML survey form created as part of the freeCodeCamp Responsive Web Design Certification project.
+
+## Features
+
+- Name, Email, and Age input fields
+- Course selection dropdown
+- Radio buttons for course rating
+- Checkboxes for topic interests
+- Textarea for additional comments
+- Submit button with HTML5 form validation
+
+## Purpose
+
+This project demonstrates how to build accessible and user-friendly forms using HTML elements such as labels, inputs, select, textarea, and buttons.
+
 ## Tools & Technologies
 - HTML5
 - CSS3
